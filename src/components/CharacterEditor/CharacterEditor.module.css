@@ -24,7 +24,21 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 80%;
+  margin: auto auto auto 50%;
+}
+
+.characterWrapper svg {
+  max-width: 358px;
+  min-height: 500px;
+  margin-left: calc(1024px * .12);
 }
 
 .controlColumn {
+  width: 50%;
 }
